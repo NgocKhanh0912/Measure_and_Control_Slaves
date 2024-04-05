@@ -1,6 +1,6 @@
 Update: Currently, I haven't finished integrating the code snippet of RTC DS3231 into the main program, building the WinForm GUI and data processing for RTC DS3231.
 
-This project is the PC-based Control and Measurement subject project that I studied in semester 232. The project content is as follows:
+This project is the PC-based Control and Measurement subject project that I am studying in semester 232. The project content is as follows:
 
 The STM32 communicates with a WinForm on a computer via UART to transmit, receive data to measure and control slaves: LED, DHT11, RTC DS3231. The WinForm will send control frame data for LED and setup frame data for current time to RTC DS3231 down to STM32.
    
