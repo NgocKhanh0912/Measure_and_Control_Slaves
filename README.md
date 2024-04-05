@@ -7,10 +7,10 @@ The STM32 communicates with a WinForm on a computer via UART to transmit, receiv
    a) The data received from the WinForm GUI is the LED control request data: "@R2ON#" (LED On) and "@R20F#" (LED Off).
    
    b) The data transmitted from STM32 to GUI comes in 3 forms:
-      - Form 1: respond data from LED control (software handshaking): "@R2ON#" or "@R2OF#"
-      - Form 2: The temperature and humidity data (in case DHT11 is not faulty) will be transmitted in the format "T...&...H", where:
-        + The data ... between 'T' and '&' represents the temperature data
-        + The data ... between '&' and 'H' represents the humidity data.
-      - Form 3: Error data from DHT11 will be transmitted in the format "Error: ...!", where the data ... represents the type of error.
+   - Form 1: respond data from LED control (software handshaking): "@R2ON#" or "@R2OF#"
+   - Form 2: The temperature and humidity data (in case DHT11 is not faulty) will be transmitted in the format "T...&...H", where:
+     + The data ... between 'T' and '&' represents the temperature data
+     + The data ... between '&' and 'H' represents the humidity data.
+   - Form 3: Error data from DHT11 will be transmitted in the format "Error: ...!", where the data ... represents the type of error.
 
 
