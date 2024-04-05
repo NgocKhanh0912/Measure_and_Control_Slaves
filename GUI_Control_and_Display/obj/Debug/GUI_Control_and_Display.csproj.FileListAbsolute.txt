@@ -1,0 +1,10 @@
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.csproj.AssemblyReference.cache
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.Form1.resources
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.Properties.Resources.resources
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.csproj.GenerateResource.cache
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.csproj.CoreCompileInputs.cache
+D:\HK\HK232\DLMT\GUI_Control_and_Display\bin\Debug\GUI_Control_and_Display.exe.config
+D:\HK\HK232\DLMT\GUI_Control_and_Display\bin\Debug\GUI_Control_and_Display.exe
+D:\HK\HK232\DLMT\GUI_Control_and_Display\bin\Debug\GUI_Control_and_Display.pdb
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.exe
+D:\HK\HK232\DLMT\GUI_Control_and_Display\obj\Debug\GUI_Control_and_Display.pdb
