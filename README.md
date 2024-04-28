@@ -1,4 +1,5 @@
-This project is the PC-based Control and Measurement subject project that I am studying in semester 232. The project content is as follows: the STM32 communicates with a WinForm on a computer via UART to transmit, receive data to measure and control slaves: LED, DHT11, RTC DS3231. The WinForm will send control frame data for LED and setup frame data for current time to RTC DS3231 down to STM32.
+This project is the PC-based Control and Measurement subject project that I am studying in semester 232. The project content is as follows: the STM32 communicates with a WinForm on a computer via UART to transmit, receive data to measure and control slaves: LED, DHT11, RTC DS3231 (I2C), 8 LED 7-seg MAX7219 (SPI). 
+The WinForm GUI will transmit control frame data for LED and setup frame data for the current time to RTC DS3231 through STM32. Additionally, the WinForm GUI will showcase the current LED status, temperature, humidity, and DHT11 status. The time will be displayed on 8 MAX7219 7-segment LEDs in the "HH-MM-SS" format. Below outlines the data communication process between WinForm GUI and STM32:
    
    a) The data received from the WinForm GUI comes in 2 forms: 
    - Form 1: The LED control request data: "@R2ON#" (LED On) and "@R20F#" (LED Off).
@@ -15,5 +16,3 @@ This project is the PC-based Control and Measurement subject project that I am s
    - Form 4: The current time obtained by STM32 via the I2C protocol from RTC DS3231:
      + The time data transmitted from STM32 to GUI is formatted as: "T..:..:..M". For example: "T20:50:30M" where 20 is the hour, 50 is the minute, and 30 is the second.
      + The day, date, month, year data transmitted from STM32 to GUI is formatted as: "D./../../20..E". For example: "D5/18/04/2024" where 5 is the day of the week (Thursday), 18 is the date, 04 is the month, and 2024 is the year.
-
-
